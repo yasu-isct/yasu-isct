@@ -18,11 +18,11 @@ AI コーディングを活用しながら、何を作るか、どの情報を�
 
 [代表プロジェクト](https://github.com/yasu-isct/J-Grad-Admission-RAG) · [設計と技術の説明](https://github.com/yasu-isct/J-Grad-Admission-RAG/blob/main/docs/portfolio/engineering-ja.md) · [開発で学んだこと](https://github.com/yasu-isct/J-Grad-Admission-RAG/blob/main/docs/development-lessons.md)
 
-## Featured project · J-Grad-Admission-RAG
+## 主力プロジェクト · J-Grad-Admission-RAG
 
 ### 大学院入試の資料確認を支える、出典付きの情報整理・検索システム
 
-塾内の教務支援を目的としたシステムの公開デモです。公式 PDF の出願日程・提出書類・試験情報を整理し、個人の状況との照合、参考レポート、自然言語での質問につなげます。
+**現在、最も注力しているプロジェクトです。** 塾内の教務支援を目的としたシステムの公開デモとして、公式 PDF の出願日程・提出書類・試験情報を整理し、個人の状況との照合、参考レポート、自然言語での質問につなげます。
 
 <a href="https://github.com/yasu-isct/J-Grad-Admission-RAG/blob/main/docs/portfolio/screenshots-ja.md">
   <img src="https://raw.githubusercontent.com/yasu-isct/J-Grad-Admission-RAG/33a473bdb78a6fc08f8e853c192c951bd115d9ad/docs/onboarding/m19-evidence/desktop-application-questionnaire-relations.png" alt="J-Grad の実装画面：複数の公式資料が、一つの提出書類の説明をどう支えるかを表示" width="100%">
@@ -41,20 +41,6 @@ AI コーディングを活用しながら、何を作るか、どの情報を�
 
 **[リポジトリ →](https://github.com/yasu-isct/J-Grad-Admission-RAG)**　[設計のポイント →](https://github.com/yasu-isct/J-Grad-Admission-RAG/blob/main/docs/portfolio/engineering-ja.md)　[ローカルで試す →](https://github.com/yasu-isct/J-Grad-Admission-RAG/blob/main/docs/portfolio/local-demo-ja.md)
 
-## Projects · 試作から運用を見据えた設計へ
-
-### 01 · [file-extract](https://github.com/yasu-isct/file-extract) — 初期 RAG プロトタイプ
-
-PDF の解析、検索、構造化抽出を試した前身プロジェクト。自然言語 QA を拡張する過程で直面した文脈量・処理時間・API コストの課題を、J-Grad の再設計につなげました。
-
-### 02 · [J-Grad-Admission-RAG](https://github.com/yasu-isct/J-Grad-Admission-RAG) — 公開デモ・継続開発
-
-検索だけでなく、レビュー済みの情報、出典、画面、回帰検証を一つの流れとして設計。教務の実際の利用場面を起点に、フィードバックを反映しています。
-
-### 03 · [Lab-Radar](https://github.com/yasu-isct/Lab-Radar) — 拡張構想・初期実装
-
-研究関心から候補研究室を探す、J-Grad の将来の拡張案。現在は API・データモデルの初期段階で、研究室検索機能は未実装です。出典に基づく関連性の説明と評価方法を検討しています。
-
 ## AI 支援開発で重視していること
 
 - **既存資産から始める。** コード・データ・過去の判断を調べ、再利用できるものを確認してから変更する。
@@ -62,6 +48,20 @@ PDF の解析、検索、構造化抽出を試した前身プロジェクト。�
 - **繰り返す作業は仕組みにする。** AI が整理した内容をレビューし、承認済みの入力から設定を生成する。
 
 [開発上の失敗と改善の記録 →](https://github.com/yasu-isct/J-Grad-Admission-RAG/blob/main/docs/development-lessons.md)
+
+## 関連プロジェクト · J-Grad の前身と拡張構想
+
+### 前身：[file-extract](https://github.com/yasu-isct/file-extract)
+
+PDF の解析・検索・構造化抽出を学ぶための初期プロトタイプです。自然言語 QA への拡張時に、**モデルに渡せる文脈量、処理の待ち時間、繰り返す API 呼び出しのコスト**が課題になりました。検索対象を減らすだけでは必要な文脈も失われるため、J-Grad で構成を見直しました。
+
+J-Grad では、**資料の事前構築と問い合わせを分離**し、構築済みの知識・索引を再利用します。さらに、レビュー済みの条件と自然言語の参考回答を分け、出典・資料版・回帰検証を管理する設計に発展させています。
+
+[当時の実験と、J-Grad への再設計の理由 →](https://github.com/yasu-isct/file-extract#なぜj-gradを別に設計したか)
+
+### 将来の拡張：[Lab-Radar](https://github.com/yasu-isct/Lab-Radar)
+
+研究関心から候補研究室を探す、**J-Grad の研究室検索への拡張構想**です。現在は API・データモデルの初期段階で、検索機能は未実装です。出典に基づく関連性の説明と評価方法を検討しています。
 
 ---
 
