@@ -22,6 +22,11 @@ AI コーディングを活用しながら、何を作るか、どの情報を�
 
 ### 大学院入試の資料確認を支える、出典付きの情報整理・検索システム
 
+<!-- jgrad-interactive-demo -->
+**[▶ ブラウザでデモを試す｜インストール不要](https://yasu-isct.github.io/J-Grad-Admission-RAG/)**
+
+*二校・五つの保存済みサンプルを操作できます。リアルタイムの検索・AI回答は実行しません。*
+
 **現在、最も注力しているプロジェクトです。** 塾内の教務支援を目的としたシステムの公開デモとして、公式 PDF の出願日程・提出書類・試験情報を整理し、個人の状況との照合、参考レポート、自然言語での質問につなげます。
 
 <a href="https://github.com/yasu-isct/J-Grad-Admission-RAG/blob/main/docs/portfolio/screenshots-ja.md">
