@@ -2,7 +2,15 @@
   <img src="assets/profile-banner.svg" alt="CHEN YI AN — RAG / LLM Applications / AI-assisted Development" width="100%">
 </p>
 
-**[個人サイトを見る →](https://yasu-isct.github.io/)**
+## 個人サイト｜プロジェクトと研究
+
+制作したプロジェクト、研究テーマ、開発の記録をまとめています。
+
+<a href="https://yasu-isct.github.io/">
+  <img src="assets/personal-site-preview.png" alt="個人サイトのプレビュー：プロジェクト・研究テーマ・開発の記録" width="760">
+</a>
+
+**[プロジェクトと研究を見る →](https://yasu-isct.github.io/)**
 
 ## はじめまして、CHEN YI AN です
 
