@@ -33,7 +33,7 @@ AI コーディングを活用しながら、何を作るか、どの情報を�
 ### 大学院入試の資料確認を支える、出典付きの情報整理・検索システム
 
 <!-- jgrad-interactive-demo -->
-**[▶ ブラウザでデモを試す｜インストール不要](https://yasu-isct.github.io/J-Grad-Admission-RAG/)**　**[GitHub リポジトリ｜コードと設計判断](https://github.com/yasu-isct/J-Grad-Admission-RAG)**
+**[▶ ブラウザでデモを試す｜インストール不要](https://yasu-isct.github.io/J-Grad-Admission-RAG/)**　**[J-Grad-Admission-RAG（GitHub）](https://github.com/yasu-isct/J-Grad-Admission-RAG)**
 
 *日本語・中国語（初期表示は日本語）で二校・五つの保存済みサンプルを操作できます。リアルタイムの検索・AI回答は実行しません。*
 
